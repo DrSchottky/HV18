@@ -1,0 +1,8 @@
+#After extracting system partioion from Virtual Disk (as 1.img)
+sudo apt-get install cryptsetup-bin cryptsetup lvm2
+sudo losetup /dev/loop0 1.img
+sudo lvscan
+sudo vgchange -ay
+sudo lvscan
+sudo mount /dev/vg0/root /mnt
+#Flag is in /mnt/etc/motd

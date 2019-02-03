@@ -1,0 +1,2 @@
+Paintings are piet program.
+Run them with npiet to get the flag.
